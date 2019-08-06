@@ -14,7 +14,7 @@ if (year % 4 == 0)
             if (year % 400 == 0)
                 cout << " yes ";
             else
-                cout << " not ";
+                cout << " no ";
         }
     
         else
@@ -22,7 +22,7 @@ if (year % 4 == 0)
     }
     
     else
-        cout << " not ";
+        cout << " no ";
     return 0;
 
 }
