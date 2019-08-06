@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 int main()
+    
 {
 
     int year;
@@ -15,9 +16,11 @@ if (year % 4 == 0)
             else
                 cout << " not ";
         }
+    
         else
             cout << " yes ";
     }
+    
     else
         cout << " not ";
     return 0;
